@@ -1,0 +1,27 @@
+.faq {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .question {
+    margin-bottom: 15px;
+  }
+  
+  .toggle-btn {
+    background-color: #e8abab;
+    border: none;
+    outline: none; 
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px;
+  }
+ .answer p {
+    margin: 0;
+  } 
+  

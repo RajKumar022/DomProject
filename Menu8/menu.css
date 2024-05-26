@@ -1,0 +1,131 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tab {
+  border: none;
+  background-color: #fff;
+  color: #666;
+  padding: 10px 20px;
+  margin: 0 5px;
+  /* border-radius: 20px; */
+  cursor: pointer;
+  font-weight: 500;
+  /* transition: background-color 0.3s ease; */
+}
+
+.tab.active {
+  background-color: #fff;
+  color: #666;
+}
+
+.tab:hover {
+  background-color: #ffc107;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto; 
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 600px;
+  max-width: 200px;
+}
+
+
+.menu-item img {
+  width: 267px;
+  height: 167px;
+  margin-right: 20px;
+  border: 3px solid #ffc107;
+  border-radius: 5px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+.menu-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto; 
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 600px;
+  max-width: 200px;
+}
+
+.menu-card img {
+  width: 267px;
+  height: 167px;
+  margin-right: 20px;
+  border: 3px solid #ffc107;
+  border-radius: 5px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.dish-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.dish-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.dish-desc {
+  font-size: 14px;
+  color: #666;
+}
+  

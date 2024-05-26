@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tab.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablink" onclick="openTab(event, 'Tab1')">Tab 1</button>
+        <button class="tablink" onclick="openTab(event, 'Tab2')">Tab 2</button>
+        <button class="tablink" onclick="openTab(event, 'Tab3')">Tab 3</button>
+    </div>
+    
+    <div id="Tab1" class="tabcontent">
+        <h3>Tab 1</h3>
+        <p>Content for Tab 1.</p>
+    </div>
+    
+    <div id="Tab2" class="tabcontent">
+        <h3>Tab 2</h3>
+        <p>Content for Tab 2.</p>
+    </div>
+    
+    <div id="Tab3" class="tabcontent">
+        <h3>Tab 3</h3>
+        <p>Content for Tab 3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, est.</p>
+    </div>
+    <script src="tab.js"></script>
+</body>
+</html>

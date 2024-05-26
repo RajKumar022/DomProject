@@ -1,0 +1,12 @@
+.video-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  .controls button {
+    margin-right: 10px;
+  }

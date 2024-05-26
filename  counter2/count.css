@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.count-container {
+    text-align: center;
+    background-color: rgb(169, 201, 201);
+}
+
+.count-display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: rgb(226, 141, 141);
+}

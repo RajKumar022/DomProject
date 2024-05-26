@@ -1,0 +1,97 @@
+  body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuBtn {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: #444;
+    cursor: pointer;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.close-btn {
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    color: #c00;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+}
+
+.links a {
+    display: block;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #777;
+}
+
+.links a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.social-icons {
+    justify-self: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.social-icons a {
+    font-size: 16px;
+    margin: 0 5px;
+    color: #777;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.show-sidebar {
+    transform: translateX(0);
+}
+
+@media screen and (min-width: 676px) {
+    .sidebar {
+        width: 400px;
+    }
+}
